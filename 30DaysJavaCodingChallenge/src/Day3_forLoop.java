@@ -44,8 +44,7 @@
 //////////////////////////////////////////////////////////////////////////
 //METHOD3
 public class Day3_forLoop{
-	static int num=3;
-	static int fact;
+	static int num=3;	static int fact;
 	public static void main(String[] args) {
 	System.out.println(fact(num));
 		
