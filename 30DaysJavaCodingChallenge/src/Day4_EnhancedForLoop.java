@@ -17,8 +17,7 @@ public static void main(String[] args) {
 	print(list);
 	System.out.println("\r\n"+"elements addition is..."+addElements(list));
 	System.out.println("max. of elements in list is..."+maxOfList(list));
-	addone(list);
-	print(list);
+	addone(list);print(list);
 	System.out.println("\r\n"+"elements addition is..."+addElements1(list));
 	//error...addOne1(list);print(list);
 	}
