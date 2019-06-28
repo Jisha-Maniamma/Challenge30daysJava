@@ -9,13 +9,14 @@
 public class Day2_callMethod {
 	public static void main(String[] args) {
 		helloWorld();
-		//a method pint1
+		//calling a method print1
 		print1();
 	}
 static void helloWorld() {
 	System.out.println("Hello world");
 }
 static void print1() {
+	//calling a method print2
 	print2();
 }
 
