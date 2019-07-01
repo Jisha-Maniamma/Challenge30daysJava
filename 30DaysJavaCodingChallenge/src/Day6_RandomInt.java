@@ -1,4 +1,6 @@
-
+/*
+ * generating random integer (by parsing)
+ */
 public class Day6_RandomInt {
 public static void main(String[] args) {
 	int n=Integer.parseInt("6");

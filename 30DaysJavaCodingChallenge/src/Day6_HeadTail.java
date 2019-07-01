@@ -1,3 +1,6 @@
+/*
+ * randomly select Head or tail
+ */
 
 public class Day6_HeadTail {
 public static void main(String[] args) {
