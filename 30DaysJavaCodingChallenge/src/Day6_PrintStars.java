@@ -33,6 +33,6 @@ public static void main(String[] args) {
 			else 
 				System.out.print(" ");
 				}
-	System.out.println(i);}
+	System.out.println(" "+i);}
 }
 }
