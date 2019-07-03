@@ -8,9 +8,16 @@ public class Day8_BouncingBall_V1 {
         StdDraw.enableDoubleBuffering();
 		
 		while(true) {
+			/*
+			 * wall hiting wall (animation)
+			 * what to do?
+			 * 
+			 */
 			if (Math.abs(rx + vx) > 1.0 - radius) vx = -vx;
             if (Math.abs(ry + vy) > 1.0 - radius) vy = -vy;
-		
+		/*
+		 * animation -moving ball
+		 */
 			rx=rx+vx;
 			ry=ry+vy;
 			StdDraw.clear(StdDraw.LIGHT_GRAY);

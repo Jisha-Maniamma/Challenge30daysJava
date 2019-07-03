@@ -7,6 +7,7 @@ public static void main(String[] args) {
 	 * COLOR
 	 * PLACE
 	 */
+	StdDraw.text(0.2, 0.2, "cought");
 	StdDraw.setPenRadius(0.05);
 	StdDraw.setPenColor(StdDraw.BLUE);
 	StdDraw.point(0.5, 0.5);
