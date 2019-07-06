@@ -4,30 +4,27 @@ import java.util.Map;
 public class Day10_HashMap_v2 {
 
 	public static void main(String[] args) {
-	HashMap<Integer,Address>a=new HashMap<Integer,Address>();
-	//adding data to HashMap
-	Address a1=new Address(305,"Hibikino",8081035);
-	Address a2=new Address(304,"AnuVijay",627120);
-	a.put(1, a1);
-	a.put(2,a2);
-	for(Map.Entry<Integer,Address> m:a.entrySet()) {
+		HashMap<Integer,Address> m=new HashMap<Integer,Address>();
+		Address a=new Address(105,"Abc","xyz",12340);
+		Address a1=new Address(110,"xyz","apg",14355);
 		
-		Address aa=m.getValue();
-		//System.out.println(m.getKey());
-		System.out.println(m.getKey()+" "+aa.roomNo+" "+aa.place+" "+aa.postal);
-	}
-	
-	}
-	
+		m.put(1,a);
+		m.put(2,a1);
+		for(Map.Entry<Integer, Address> h:m.entrySet()) {
+			Address aa=h.getValue();
+			System.out.println(h.getKey()+" "+aa.HouseNo+" "+aa.street+" "+aa.location+" "+aa.pin);
+			
+		}
 		
-	}
+	}}
 
-class Address{
-	int roomNo;String place;int postal;
-	public Address(int roomNo,String place,int postal) {
-		this.roomNo=roomNo;
-		this.place=place;
-		this.postal=postal;
-		
+class Address {
+	int HouseNo; int pin;
+	String street; String location;
+	 public Address(int HouseNo,String street,String location,int pin) {
+		this.HouseNo=HouseNo;
+		this.street=street;
+		this.location=location;
+		this.pin=pin;
 	}
 }
